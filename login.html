@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://localhost/project/login.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Registration system PHP and MySQL</title>
+  <link rel="stylesheet" type="text/css" href="./login_files/style.css">
+  <link rel="stylesheet" href="./login_files/bootstrap.min.css">
+  <script src="./login_files/jquery-3.5.1.slim.min.js.download"></script>
+  <script src="./login_files/popper.min.js.download"></script>
+  <script src="./login_files/bootstrap.min.js.download"></script>
+  <link href="./login_files/owl.carousel.min.css" rel="stylesheet">
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url(23.jpg);
+    }
+    .input-container {
+      background: lightsteelblue;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .input-group {
+      margin: 10px 0;
+    }
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background: #5cb85c;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #4cae4c;
+    }
+    p {
+      text-align: center;
+    }
+    a {
+      color: #5cb85c;
+    }
+  </style>
+</head>
+<body>
+  <div class="input-container">
+    <h2>Login</h2>
+    <form method="post" action="http://localhost/project/login.php" id="login_here">
+            <div class="input-group">
+        <label>Username</label>
+        <input type="text" name="username">
+      </div>
+      <div class="input-group">
+        <label>Password</label>
+        <input type="password" name="password">
+      </div>
+      <div class="input-group">
+        <button type="submit" class="btn" name="login_user">Login</button>
+      </div>
+      <p>
+        Not yet a member? <a href="http://localhost/project/Sign_up.php">Sign up</a>
+      </p>
+    </form>
+  </div>
+
+</body></html>
